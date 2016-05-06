@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*
+Design by http://www.templateaccess.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+
+
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+.Conditions,label{
+  display:block;
+  width:170px;
+  cursor:pointer;
+}
+.Conditions input[type="radio"]{
+  display: none;
+}
+.Conditions input[type="radio"]+label{
+  /*display: inline-block;*/
+  background-color: #ccc;
+  cursor: pointer;
+  margin: 5px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-family: 微軟正黑體;
+  letter-spacing: 0.1em;
+  font-size:22px;
+  text-align:center;
+  
+  /*zindex:0;*/
+}
+.Conditions input[type="radio"]:checked + label {
+  background-color: #F60; /*#0071BC*/
+  color: #fff;
+}
+
+/* ____________________________________________________________________________________________________________________________________________________________ */
+
+
+
+
+button[type="submit"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+.Conditions,label{
+  display:block;
+  width:170px;
+}
+.Conditions button[type="submit"]{
+  display: none;
+}
+.Conditions button[type="submit"]+label{
+  /*display: inline-block;*/
+  background-color: #ccc;
+  cursor: pointer;
+  margin: 5px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-family: 微軟正黑體;
+  letter-spacing: 0.1em;
+  font-size:22px;
+  text-align:center;
+  
+  /*zindex:0;*/
+}
+.Conditions button[type="submit"]:checked + label {
+  background-color: #F60; /*#0071BC*/
+  color: #fff;
+}
+
+
+
+
+/* ____________________________________________________________________________________________________________________________________________________________ */
+
+legend,.dataCenterPicker+option{
+
+  
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-family: 微軟正黑體;
+  font-size:medium;
+}
+
+
+
+/* 長條圖使用 */
+.axis text {
+ font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+ fill: none;
+ stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+ fill: steelblue;
+ fill-opacity: .9;
+}
+
+.x.axis path {
+ display: none;
+}
+/* jquery */
+#Conditions_one,#Conditions_two,#Conditions_thrid,#Conditions_fourth,#Conditions_fifth/* ,#Drawing_one,#Drawing_two,#Drawing_three */{
+  display: none;
+}
+/* 字體放大 */
+.blod{
+font:bold 36px Comic Sans MS,Arial,Verdana;
+color:#FF3333;
+}
+
